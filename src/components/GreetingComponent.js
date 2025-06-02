@@ -13,7 +13,7 @@ const GreetingComponent = () => {
         onChange={(e) => setName(e.target.value)}
         style={styles.input}
       />
-      {name && <h3 style={styles.greeting}>Hello, {name}!</h3>}
+      {name && <h3 style={styles.greeting}>Hello {name}!</h3>}
     </div>
   );
 };
